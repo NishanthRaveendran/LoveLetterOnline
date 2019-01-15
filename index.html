@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Love Letter Online</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link href="styles.css" type="text/css" rel="stylesheet" />
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico" />
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-sm navbar-light">
+		<a class="navbar-brand" href="index.html">
+			<img src="imgs/favi2.png" width="30" height="30" class="logo d-inline-block align-top" alt="">
+			Love Letter Online
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span></button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="rules.html">Rules</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Game</a>
+				</li>
+				
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Welcome -->
+	<div id="welcome" class="jumbotron">
+		<h1 class="display-4">Welcome to <span class="text-danger">Love Letter</span> Online.</h1>
+		<p class="lead">The popular card game, <span class='font-italic'>Love Letter</span>, but you can play online.</p>
+		<hr class="my-4">
+		<p>Type your name and click Play to begin.</p>
+		<form class="form-inline">
+			<div class="input-group shadow-sm">
+				<div class="input-group-prepend">
+					<span class="input-group-text" id="basic-addon1">@</span>
+				</div>
+				<input id="play" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+				<div class="input-group-append">
+					<button id="playbutton" class="btn btn-primary" type="submit">Play</button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+	<!-- Waiting -->
+	<div id="waiting" class="jumbotron">
+		<h1 class="display-4">You're in.</h1>
+		<!-- <div id="load" class="spinner-border" role="status">
+  		<span class="sr-only">Loading...</span>
+		</div> -->
+		<p class="lead">Waiting for more players to fill lobby</p>
+	</div>
+
+	<!-- How to Play -->
+	<div class='videos'>
+		<h5 class="learntoplay display-4">Learn how to play</h5>
+		<hr class="my-4">
+
+		<div class="videocard card1 shadow embed-responsive embed-responsive-16by9">
+			<iframe width="100%" src="https://www.youtube.com/embed/WAiI7G3QdOU" allowfullscreen></iframe>
+		</div>
+
+		<div class="videocard shadow embed-responsive embed-responsive-16by9">
+			<iframe width="100%" src="https://www.youtube.com/embed/6XHpHrKtIEM" allowfullscreen></iframe>
+		</div>
+	</div>
+
+	<hr class="my-4 invisible">
+
+	<!-- Footer -->
+	<footer class='page-footer font-small bg-dark text-light'>
+		<div class="footer-copyright text-center py-3">Created by
+			<a class="text-danger" href="https://github.com/NishanthRaveendran"> Nishanth Raveendran</a>
+		</div>
+	</footer>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script src="scripts.js"></script>
+</body>
+
+</html>

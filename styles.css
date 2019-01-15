@@ -1,0 +1,191 @@
+body {
+  background-color: rgba(237,237,238,1);
+}
+
+nav {
+  background-color: rgba(234,234,234,1);
+  border-bottom: 1px solid rgba(200,200,210,1);
+}
+
+.logo {
+  margin-right: 4px;
+}
+
+.jumbotron {
+  background: rgba(246,246,246,1);
+  display: block;
+  border-bottom: 1px solid rgba(233,233,233,1);
+}
+
+/* index */
+
+#waiting {
+  display: none;
+  background: rgba(80,220,120,1);
+}
+
+#load {
+  border: 1px solid red;
+  width: 40px; height: 40px;
+}
+
+.learntoplay {
+  font-size: 36px;
+  margin-bottom: -16px;
+}
+
+.videos {
+  margin: 20px;
+  padding: 0 1%;
+}
+
+.videos::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.videocard {
+  float: left;
+  border: 0px solid rgba(184,184,184,1);
+  border-radius: 20px;
+  width: 49%;
+}
+
+.card1 {
+  margin: 0 2% 25px 0;
+}
+
+@media screen and (max-width: 900px) {
+  .videocard {
+    width: 100%;
+  }
+}
+
+.players {
+  background: rgba(246,246,246,1);
+}
+
+/* rules */
+#heart {
+  margin: -7px 20px 0 0;
+  float: left;
+}
+
+.intro-text {
+  margin: 20px 0 0 0;
+  max-width: 900px;
+}
+
+#thecards {
+  padding: 20px 35px 20px 35px;
+  background: rgba(246,246,246,1);
+  border-top: 1px solid rgba(233,233,233,1);
+  border-bottom: 1px solid rgba(233,233,233,1);
+  overflow: auto;
+}
+
+#card_carousel {
+  max-width: 400px;
+  display: inline;
+  float: left;
+  margin: 0 40px 20px 0;
+}
+
+.cardstext {
+  max-width: 470px;
+  display: inline-block;
+  float: left;
+}
+
+.cardstext2 {
+  max-width: 850px;
+}
+
+#cardheart {
+  margin: 5px 25px 0 0;
+  float: left;
+}
+
+/* Chat */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 28px;
+  right: 18px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/* Game */
+
+.containe {
+  text-align: center;
+  border: solid 1px red;
+  max-width: 700px;
+  float: left;
+}
+
+.container {
+  overflow: auto;
+}
