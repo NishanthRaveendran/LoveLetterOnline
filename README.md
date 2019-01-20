@@ -9,11 +9,11 @@ I am learning as I go, and I will update this project when I feel comfortable wi
 
 My goals for this project:
 
-- [x] Create an elegant user interface
-- [ ] Integrate backend for player lobby
-- [ ] Add game mechanics and player communication
-- [ ] Allow players to create lobbys
-- [ ] Stylize game interface
+1. Create an elegant user interface
+2. Integrate backend for player lobby
+3. Add game mechanics and player communication
+4. Allow players to create lobbys
+5. Stylize game interface
 
 This project will take a while to complete but this is something I am passionate about so I am confident that I will get this done eventually.
 
