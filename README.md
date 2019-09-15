@@ -15,10 +15,7 @@ My goals for this project:
 4. Allow players to create lobbys
 5. Stylize game interface
 
-This project will take a while to complete but this is something I am passionate about so I am confident that I will get this done eventually.
-
 <img src="https://github.com/NishanthRaveendran/LoveLetterOnline/blob/master/imgs/heart.png" width="90" height="90"> 
 
-### Check out the project at it's current state [here](http://nishanthraveendran.github.io)
 
 
